@@ -1,0 +1,5 @@
+---
+puppet.jlc.vm:
+  role: read-write
+pe-internal-dashboard:
+  role: read-write

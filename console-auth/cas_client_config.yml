@@ -1,0 +1,32 @@
+## This configuration file contains information required by any web
+## service that makes use of the CAS server for authentication.
+
+authentication:
+
+  ## The session secret is randomly generated during installation of Puppet
+  ## Enterprise and will be regenerated any time console-auth is enabled or disabled.
+  session_key: 'puppet_enterprise_console'
+  session_secret: 75ad7c22caf802e24201e9cf44d1465899194e7f94935b285100c9969c3f16ee7a035e6b5518b3001d12c4e0f2a0f205a278becc3e0efc37da4c41ce01c05e5f
+
+  ## The session timeout is set to 1200 seconds (20 minutes) by default.
+  ## Please uncomment the option below and change it to your desired value
+  ## in seconds.
+  session_timeout: 1200
+
+  ## Set this to true to allow anonymous users read-only access to all of
+  ## Puppet Enterprise Console.
+  global_unauthenticated_access: false
+
+authorization:
+  local:
+    default_role: read-only
+    description: Local
+#  ldap:
+#    default_role: read-only
+#    description: LDAP
+#  activedirectoryldap:
+#    default_role: read-only
+#    description: Active Directory
+#  google:
+#    default_role: read-only
+#    description: Google

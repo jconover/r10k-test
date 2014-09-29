@@ -44,13 +44,13 @@
   uuid: "564D2FFD-38D8-E793-78BB-447C3AB81F6F"
   type: Other
   memorysize: "1.82 GB"
-  memoryfree: "689.61 MB"
+  memoryfree: "687.12 MB"
   swapsize: "1.94 GB"
   swapfree: "1.94 GB"
   swapsize_mb: "1984.00"
   swapfree_mb: "1984.00"
   memorysize_mb: "1861.86"
-  memoryfree_mb: "689.61"
+  memoryfree_mb: "687.12"
   memorytotal: "1.82 GB"
   netmask: "255.255.255.0"
   network_eth0: "172.16.156.0"
@@ -83,10 +83,10 @@
     SSHFP 1 2 8ddb2b51e9033b2c0ebcecb06dafdd2021555f3b06e369faac232ed29d53f749
   timezone: PDT
   uniqueid: "10ac849c"
-  uptime: "0:09 hours"
+  uptime: "0:24 hours"
   uptime_days: 0
   uptime_hours: 0
-  uptime_seconds: 565
+  uptime_seconds: 1464
   virtual: vmware
   is_virtual: "true"
   concat_basedir: /var/opt/lib/pe-puppet/concat
